@@ -38,7 +38,7 @@ class TimerDetailManager
                 . "<th>Lezen</th>"
                 . "<th>Schrijven</th></tr>";
             foreach($tuRow as $timerUser){
-                if ($timerUser->email() != null){
+                if ($timerUser->userid() == null){
                     $name = "?";
                     $email = $timerUser->email();
                 } else {
