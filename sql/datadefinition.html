@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `timeruser` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `timerid` int(11) NOT NULL,
+  `userid` int(11) DEFAULT NULL,
+  `read` tinyint(4) NOT NULL DEFAULT '1',
+  `write` tinyint(4) NOT NULL DEFAULT '0',
+  `email` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+

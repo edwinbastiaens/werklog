@@ -1,0 +1,101 @@
+/* 
+    Created on : 17-sep-2016, 17:01:48
+    Author     : Edwin
+*/
+form, .form {
+    background-color: #EEE;
+    border:2px solid #BBB;
+    padding:0.5em;
+    margin:0em;
+}
+input {
+    padding:0.5em;
+    margin:0.5em;
+    font-size:1.2em;
+}
+body {
+    font-family: Arial, Verdana, Tahoma;
+    font-size:1em;
+    margin:0px;
+    padding:0px;
+}
+h1 {
+    text-align:center;
+}
+.timer {
+    background-color:#77D;
+    border:solid 2px #44A;
+    margin:0.2em 0em 0.2em 0em;
+    padding:1em;
+    font-size:1.2em;
+}
+
+.deltimer {
+    background-color:#AA0;
+    border:solid 1px #880;
+    cursor:pointer;
+    margin-left:5px;
+    padding:5px;
+}
+
+.deltimer:hover{
+    background-color:#CC0;
+}
+
+.stoptimer, .starttimer, .timersituation{
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    color:#FFF;
+}
+.timersituation {
+    background-color:lightgray;
+    border:2px solid darkgray;
+    color:#000;
+    cursor:default;
+}
+.stoptimer{
+    background-color:orange;
+    border:2px solid darkorange;
+}
+
+.starttimer{
+    background-color:green;
+    border:2px solid darkgreen;
+}
+
+.starttimer:hover, .stoptimer:hover {
+    color:yellow;
+}
+
+.warning{
+    color:red;
+    font-weight:bold;
+    font-size:1.4em;
+    padding:15px;
+}
+
+.timerdetails{
+    margin:5px;
+    padding:5px;
+    border:2px solid #44a;
+    cursor:pointer;
+}
+
+.timerdetails:hover {
+    background-color:#99E;
+}
+
+.timerdetailsopen {
+    background-color:#4a4;
+}
+
+.timerdetailsopen:hover {
+    background-color:#6e6;
+}
+
+.details {
+    background-color:#DDD;
+    border:2px solid #BBB;
+    padding:0px 10px 0px 10px;
+}
