@@ -28,7 +28,7 @@ class UserHandler
         $user = User::getUserByEmail($logon);
         if ($user === false){ return false;}
         if ($user->checkPassword($password)){
-            setcookie("ulogin", $logon, time() + 3600*24);
+            setcookie("ulogin", $logon, time() + 3600*24 * 365);
             $_COOKIE["ulogin"] = $logon;
             return true;
         }
