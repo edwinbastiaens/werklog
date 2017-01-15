@@ -1,0 +1,193 @@
+/*
+ *Theme Name: Le Petit Viala
+ *Description: Dedicated Wordpress theme
+ *Version:0.1
+ *Author: Tolima cv. - Belgium
+ **/
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('OpenSans-Light.ttf');
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#DDD;
+    font-family: OpenSans-Light;
+}
+
+#main {
+    width:1040px;
+    margin:0px auto;
+    background-color:#FFF;
+}
+
+#header {
+    min-height: 230px;
+}
+#headerpositioning {
+    position:absolute;
+}
+
+#headerpositioning #swusj{
+    top:0px;
+    left:50px;
+    position:absolute;
+}
+
+#headerpositioning #logo{
+    top:50px;
+    left:55px;
+    position:absolute;
+}
+
+#headerpositioning #lng {
+    position:absolute;
+    left:940px;
+    top:30px;
+    text-align: left;
+    width:100px;
+    margin:0px;
+    padding:0px;
+}
+
+#headerpositioning #menu{
+    top:30px;
+    left:330px;
+    position:absolute;
+}
+
+#menuitems{
+    float:left;
+    color:#FFF;
+    width:600px;
+}
+
+#menuitems ul {
+    margin:0px;
+    padding:0px;
+}
+
+#menuitems ul li {
+    display:inline;
+    float:left;
+    margin:0 0px;
+    padding:0px 22px 0px 22px;
+    font-size: 1.1em;
+    cursor:pointer;
+}
+
+#menuitems ul li a{
+    
+}
+#menuitems ul li:hover {
+    color:#ddd;
+}
+
+.selectedmenu{
+    color:#FDB73B;
+}
+
+#menuitems ul li.selectedmenu:hover{
+    color:#FDB73B;
+    cursor:pointer;
+}
+
+#container {
+    clear:both;
+    width:750px;
+    margin:0px auto;
+    background-color:#FFF;
+    color:#884C28;
+}
+
+.fotoslider{
+    text-align:center;
+}
+/*.fotoslider img{
+    -webkit-box-shadow: -5px 6px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 7px 1px rgba(0,0,0,0.75);
+}*/
+
+#container h1{
+    margin:0.8em 0em 0.8em 0em;
+    text-align:center;
+    font-size:1.7em;
+    font-weight:normal;
+}
+
+#container p{
+    text-align: justify
+}
+
+#footer{
+    margin:4em 0em 0em 0em;
+    padding:0px;
+}
+#footerbalk{
+    padding:2em 0.9em 2em 0.9em;
+    text-align:center;
+    background-color:#FDB73B;
+    font-size:1.2em;
+    color:#FFF;
+}
+
+#social{
+    text-align: center;
+}
+
+
+form{
+    background-color:#FFFF;
+    color:#884C28;
+    padding:10px;
+    border:solid 1px #884C28;
+    width:530px;
+}
+
+input{
+    color:#884C28;
+    padding:8px;
+    border:solid 1px #FDB73B;
+    margin:3px;
+    width:500px;
+}
+
+form input[type="submit"]{
+    background-color:#FDB73B;
+    border:solid 1px #884C28;
+    width:518px;
+}
+
+textarea{
+    width:500px;
+    height:100px;
+    padding:8px;
+    border:solid 1px #FDB73B;
+}
+form input[type="submit"]:hover{
+    background-color:#FFC147;
+}
+
+.geomapcentral {
+    text-align: center;
+    display: block;
+    padding-left:0px;
+}
+#map-canvas{
+    text-align:center;
+    width:550px;
+    height:270px;
+    background-color:#CCC;
+    border:1px solid #000;
+    margin-top:5px;
+}
+
+li{
+  margin-top:10px;  
+}
+
+td {
+    padding-top:15px;  
+}
